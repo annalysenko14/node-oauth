@@ -15,7 +15,9 @@
         "vows": "0.8.x"
     },
     "scripts": {
-        "test": "make test"
+        "test": "make test",
+        "demo:oauth-callback": "node examples/oauth-callback-demo/server.js",
+        "demo:tunnel": "bash .ngrok/expose.sh"
     },
     "license": "MIT"
 }
